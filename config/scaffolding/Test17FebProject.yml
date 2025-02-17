@@ -7,3 +7,104 @@ packages:
   gitUrl: https://github.com/Rashmi-Thakare-IBM
   gitUsername: Rashmi-Thakare-IBM
   gitBranch: main
+- name: WmSalesforceProvider
+services:
+- serviceName: project.test17feb.integrations:custom17Feb
+  packages:
+  - name: Test17FebProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+- serviceName: project.test17feb.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.operations.actions:customdelete
+  packages:
+  - name: Test17FebProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+configurationVariables:
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.timeoutType
+  : fixed
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.followServerRedirects
+  : "true"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.httpContentCharSet
+  : ISO-8859-1
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.protocolVersion
+  : HTTP/1.1
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.readTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.useExpectCont
+  : "false"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.allowCircularRedirects
+  : "true"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cr.authSchemeType
+  : none
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.connectionEnabled
+  : "false"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.userAgent
+  : Cloudstreams
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.maximumPoolSize
+  : "10"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.connectTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.providerUrl
+  : https://softwareag-a3-dev-ed.develop.my.salesforce.com/
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.keepAliveInterval
+  : "300000"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.minimumPoolSize
+  : "1"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cr.preemptiveAuthEnabled
+  : "false"
+  ? iscloudstreamsconnectorservice.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..operations..actions:customdelete.virtualServiceName
+  : WmCloudStreams.SoapVS
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.sessionExpiry
+  : "14"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.useChunking
+  : "false"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.socketLinger
+  : "-1"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.poolIncrementSize
+  : "1"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.poolable
+  : "true"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.pr.serverRedirectMax
+  : "5"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.validateAfterInactivity
+  : "1000"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.blockTimeout
+  : "1000"
+  ? iscloudstreamsconnectorservice.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..operations..actions:customdelete.connectionAlias
+  : project.test17feb.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.connections:rath17Feb
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cr.password
+  : "{AES}jBLz2gYx6gF45VYUkhfvJAPTM2hLyRkBm4bFmGpNb/A+yULNKm00UzrKw70pXsPV"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.rh.requestHeaderValues
+  : "text/xml,login"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.tcpNoDelay
+  : "false"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cn.retryCount
+  : "3"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.rh.requestHeaderNames
+  : "Content-Type,SOAPAction"
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:rath17Feb.cr.username
+  : dillipkumar.palai@softwareag.com
