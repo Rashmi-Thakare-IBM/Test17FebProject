@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Test17FebProject
+  gitServerName: rath
+  gitUrl: https://github.com/Rashmi-Thakare-IBM
+  gitUsername: Rashmi-Thakare-IBM
+  gitBranch: main
