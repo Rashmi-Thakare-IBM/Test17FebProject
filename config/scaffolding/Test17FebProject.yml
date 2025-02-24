@@ -151,10 +151,10 @@ configurationVariables:
   : HTTP/1.1
   ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:tytyty24feb.cn.socketLinger
   : "-1"
-  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:tytyty24feb.cn.keepAliveInterval
-  : "300000"
   ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:tytyty24feb.cn.hostnameVerifier
   : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:tytyty24feb.cn.keepAliveInterval
+  : "300000"
   ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:tytyty24feb.pr.useExpectCont
   : "false"
   ? cloudstreamsconnection.project..test17feb..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:tytyty24feb.pr.httpContentCharSet
