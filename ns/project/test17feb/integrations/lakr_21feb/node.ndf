@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">lakshmi</value>
-    <value name="createdDate">1740126668863</value>
-    <value name="lastModifiedDate">1740126668863</value>
+    <value name="lastModifiedBy">rashmi-azspro7</value>
+    <value name="lastModifiedDate">1740378445683</value>
     <value name="displayName">lakr_21feb</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -65,6 +64,7 @@
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="operationName">action_21feb</value>
           <value name="isCustom">true</value>
+          <value name="description"></value>
           <value name="operationType">actions</value>
           <value name="connectionType">sagcloud</value>
           <value name="projectName">project.test17feb</value>
@@ -87,11 +87,11 @@
         <Boolean name="allowUpdateApplication">false</Boolean>
         <double name="rank" type="Double">1.2000000000000002</double>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">lakr_21feb</value>
+          <value name="connectionName">tytyty24feb</value>
           <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">lakr_21feb</value>
+        <value name="connectionNSName">tytyty24feb</value>
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
@@ -109,6 +109,7 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
